@@ -22,3 +22,5 @@
 To start the project on your machine, make sure you have Yarn or NPM installed.
 
 After installing the necessary components, type the command "yarn start" or "npm start" to start the server at the default address (http://localhost:3000).
+
+The application can also be accessed through the link: https://market-sigma.vercel.app/
