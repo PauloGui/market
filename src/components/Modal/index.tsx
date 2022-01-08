@@ -80,7 +80,7 @@ const Modal = ({
           </ContainerCard>
           <ContainerText>
             <Text>Total</Text>
-            <Text>R$ {totalPrice}</Text>
+            <Text>R$ {totalPrice.toFixed(2)}</Text>
           </ContainerText>
           {totalPrice.toFixed(2) > 10 && (
             <AlertFreight>
