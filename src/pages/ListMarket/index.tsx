@@ -4,6 +4,7 @@ import { ReactComponent as Icon } from '../../assets/shopping-cart.svg';
 import { CardItem } from '../../components/CardItem';
 import Modal from '../../components/Modal';
 import { useCart } from '../../contexts';
+import { data } from '../../mock';
 
 import { Container, Wrapper, Text, ButtonCart, BadgeCar } from './styles';
 
@@ -42,13 +43,7 @@ export const ListMarket = () => {
   };
 
   useEffect(() => {
-    (async () => {
-      const res = await fetch(
-        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/11b895d0-bc64-4f3a-bfa9-7c652be8d415/acima-10-reais.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220106%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220106T150132Z&X-Amz-Expires=86400&X-Amz-Signature=ee553e3e58245d4779f739cb7209c3bf58f501b7800a32d33de5c8cd971be143&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22acima-10-reais.json%22&x-id=GetObject',
-      );
-      const json = await res.json();
-      setState(json);
-    })();
+    setState(data);
   }, []);
 
   return (

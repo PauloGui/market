@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+# Project shopping cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objectives:
 
-## Available Scripts
+- Develop a "Shopping Cart" using an API.
+- List the products, display the purchase total, and display a message telling you if the order has free shipping.
 
-In the project directory, you can run:
+## Minimum Requirements:
 
-### `npm start`
+- List the products coming from the API.
+- The products must have an image, name and price.
+- Display the total value of all products at the end of the list.
+- Display the free shipping text depending on the value of the cart.
+- The free shipping text should only appear if the value is above **R$ 10.00.**
+- Follow the layout.
+- Use Flex-Box CSS.
+- You can use Vanilla JS, React, Vue or other framework. Feel free to use any tool you like.
+- Send the test link on github.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to run
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To start the project on your machine, make sure you have Yarn or NPM installed.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+After installing the necessary components, type the command "yarn start" or "npm start" to start the server at the default address (http://localhost:3000).
